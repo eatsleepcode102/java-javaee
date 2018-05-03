@@ -96,6 +96,78 @@ public class SetExamples {
 		ints.remove(1);
 		ints.remove(2);
 		System.out.println("intArray="+Arrays.toString(intArray));
+		//array to set example
+		ints=new HashSet<>(Arrays.asList(intArray));
+		System.out.println("ints from array="+ ints);
+		ints.remove(1); ints.remove(2);
+		System.out.println("ints from array after removing="+ ints);
 		
+		System.out.println("________Hashset to List_______");
+		vowelsSet =new HashSet<>();
+		vowelsSet.add("a");vowelsSet.add("e");vowelsSet.add("i");
+		//set to list
+		List<String> vowelsList=new ArrayList<>(vowelsSet);
+		System.out.println("vowelsSet="+ vowelsSet);
+		System.out.println("vowelsList="+ vowelsList);
+		
+		vowelsSet.add("o");
+		vowelsList.add("a");vowelsList.add("u");//it proves vowelsList not referencing to Set anymore
+		System.out.println("vowelsSet="+ vowelsSet);
+		System.out.println("vowelsList="+ vowelsList);
+		//list to set
+		vowelsSet=new HashSet<>(vowelsList);
+		System.out.println("vowelsSet="+ vowelsSet);
+		
+		System.out.println("_______HashSet equals() + HashSet hashCode()______");
+		Set<Emp> emps=new HashSet<>();
+		emps.add(new Emp(1, "Pankaj"));
+		emps.add(new Emp(2, "David"));
+		emps.add(new Emp(1, "Pankaj"));
+		System.out.println(emps);
+		
+	}
+}
+
+class Emp{
+	private int id;
+	private String name;
+	public Emp(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	@Override
+	public String toString(){
+		return "{"+id+","+name+"}";
+	}
+	
+	@Override
+	public boolean equals(Object obj){
+		if(obj == null || !(obj instanceof Emp)) return false;
+		Emp e = (Emp) obj;
+		if(e.getId() == this.getId() && this.getName().equals(e.getName())) return true;
+		return false;
+	}
+	
+	@Override
+	public int hashCode(){
+		return getId();
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }
