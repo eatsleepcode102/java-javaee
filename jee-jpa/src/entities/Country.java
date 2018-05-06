@@ -3,6 +3,7 @@ package entities;
 import java.io.Serializable;
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -26,7 +27,7 @@ public class Country implements Serializable {
 	private Timestamp lastUpdate;
 
 	//bi-directional many-to-one association to City
-	@OneToMany(mappedBy="country")
+	@OneToMany(mappedBy="country", fetch=FetchType.EAGER)//it must be EAGER
 	private List<City> cities;
 
 	public Country() {

@@ -5,6 +5,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.sql.Array;
+import java.util.Date;
 import java.util.List;
 
 
@@ -24,7 +25,7 @@ public class Film implements Serializable {
 
 	private String description;
 
-	private Object fulltext;
+	private String fulltext;
 
 	@Column(name="last_update")
 	private Timestamp lastUpdate;
@@ -34,7 +35,7 @@ public class Film implements Serializable {
 	private String rating;
 
 	@Column(name="release_year")
-	private Object releaseYear;
+	private int releaseYear;
 
 	@Column(name="rental_duration")
 	private Integer rentalDuration;
@@ -86,11 +87,11 @@ public class Film implements Serializable {
 		this.description = description;
 	}
 
-	public Object getFulltext() {
+	public String getFulltext() {
 		return this.fulltext;
 	}
 
-	public void setFulltext(Object fulltext) {
+	public void setFulltext(String fulltext) {
 		this.fulltext = fulltext;
 	}
 
@@ -118,11 +119,11 @@ public class Film implements Serializable {
 		this.rating = rating;
 	}
 
-	public Object getReleaseYear() {
+	public int getReleaseYear() {
 		return this.releaseYear;
 	}
 
-	public void setReleaseYear(Object releaseYear) {
+	public void setReleaseYear(int releaseYear) {
 		this.releaseYear = releaseYear;
 	}
 

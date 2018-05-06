@@ -26,8 +26,7 @@ public class City implements Serializable {
 	private Timestamp lastUpdate;
 
 	//bi-directional many-to-one association to Address
-//	@OneToMany(mappedBy="city")
-	@Transient
+	@OneToMany(mappedBy="city")
 	private List<Address> addresses;
 
 	//bi-directional many-to-one association to Country
