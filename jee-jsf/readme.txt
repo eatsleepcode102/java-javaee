@@ -1,0 +1,1 @@
+#1: to integrate Primefaces into jee-jsf, primeface.jar is needed to deploy to server (Properties > Deployment Assembly)
