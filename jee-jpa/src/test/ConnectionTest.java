@@ -1,4 +1,4 @@
-package debugs;
+package test;
 
 import java.io.Console;
 import java.util.List;

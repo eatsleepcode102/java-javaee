@@ -1,3 +1,6 @@
+#common:
+-javaee-api-7.0
+
 #jee-jpa:
 -eclipselink.jar
 -javax.persistence_2.1.0.v201304241213.jar
@@ -5,3 +8,5 @@
 
 #jee-jsf:
 -primefaces-6.2.jar
+
+#jee-cdi:
