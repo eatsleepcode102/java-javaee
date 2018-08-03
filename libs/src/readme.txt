@@ -10,3 +10,9 @@
 -primefaces-6.2.jar
 
 #jee-cdi:
+-weld-spi-2.2.SP3.jar
+-weld-se-core-2.2.4.Final.jar
+-weld-core-impl-2.2.4.Final.jar
+-weld-api-2.2.SP3.jar
+-guava-13.0.1.jar
+-jboss-classfilewriter-1.0.4.Final.jar
