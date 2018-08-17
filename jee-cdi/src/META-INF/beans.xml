@@ -5,4 +5,8 @@
 	<scan>
         <exclude name="org.jboss.weld.**" />
     </scan>
+    
+    <!-- <alternatives>
+        <class>alternatives.FancyGreeting</class>  for using @Alternatives annotation
+    </alternatives> -->
 </beans>

@@ -6,17 +6,17 @@ public class DecoratorTest {
 		Car basicCar=new BasicCar();
 		// now decorate the basic Car
 		Car car=new LuxuryCar(new SportCar(basicCar));
-		car.essemble();
+		car.assemble();
 	}
 }
 
 interface Car {
-	void essemble();
+	void assemble();
 }
 
 class BasicCar implements Car {
 	@Override
-	public void essemble() {
+	public void assemble() {
 		System.out.println("Basic Car");
 		
 	}
@@ -30,8 +30,8 @@ class CarDecorator implements Car {
 	}
 
 	@Override
-	public void essemble() {
-		this.car.essemble();
+	public void assemble() {
+		this.car.assemble();
 	}
 }
 
@@ -43,9 +43,9 @@ class LuxuryCar extends CarDecorator {
 	}
 
 	@Override
-	public void essemble() {
+	public void assemble() {
 		System.out.println("adding luxury's feature");
-		super.essemble();
+		super.assemble();
 	}
 }
 
@@ -56,10 +56,10 @@ class SportCar extends CarDecorator {
 	}
 
 	@Override
-	public void essemble() {
+	public void assemble() {
 		System.out.println("adding sport's feature");
 		addingRocket();
-		super.essemble();
+		super.assemble();
 	}
 	
 	//extend new functionality by adding a state or behavior

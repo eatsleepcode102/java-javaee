@@ -19,8 +19,8 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="javaee-api-7.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="weld-se-core-2.2.4.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="javaee-api-7.0.jar" sourcepath="C:/Users/Eternity/Desktop/setup/sources/git/java-javaee/libs/javaee-api-7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="weld-se-core-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/se/weld-se-core/2.2.4.Final/weld-se-core-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-spi-2.2.SP3.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-core-impl-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/weld-core-impl/2.2.4.Final/weld-core-impl-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="guava-13.0.1.jar"/>
