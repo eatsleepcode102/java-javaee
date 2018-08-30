@@ -19,12 +19,20 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="javaee-api-7.0.jar" sourcepath="C:/Users/Eternity/Desktop/setup/sources/git/java-javaee/libs/javaee-api-7.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-se-core-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/se/weld-se-core/2.2.4.Final/weld-se-core-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-spi-2.2.SP3.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-core-impl-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/weld-core-impl/2.2.4.Final/weld-core-impl-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="guava-13.0.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-api-2.2.SP3.jar"/>
 	<classpathentry exported="true" kind="lib" path="jboss-classfilewriter-1.0.4.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="hibernate-core-5.0.5.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/hibernate/hibernate-core/5.0.5.Final/hibernate-core-5.0.5.Final-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="hibernate-entitymanager-5.0.5.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.5.Final/hibernate-entitymanager-5.0.5.Final-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="dom4j-1.6.1.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/zenframework/z8/dependencies/commons/dom4j-1.6.1/2.0/dom4j-1.6.1-2.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="hibernate-commons-annotations-5.0.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="javassist-3.12.1.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="classmate-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="javaee-api-7.0.jar" sourcepath="javaee-api-7.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="javaee-api-7.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="antlr-2.7.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

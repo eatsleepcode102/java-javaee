@@ -16,3 +16,11 @@
 -weld-api-2.2.SP3.jar
 -guava-13.0.1.jar
 -jboss-classfilewriter-1.0.4.Final.jar
+
+#fw-hibernate
+hibernate-core-5.0.5.Final.jar
+hibernate-commons-annotations-5.0.4.Final.jar
+hibernate-entitymanager-5.0.5.Final.jar
+javassist-3.12.1.GA.jar
+classmate-1.3.1.jar
+antlr-2.7.7.jar
