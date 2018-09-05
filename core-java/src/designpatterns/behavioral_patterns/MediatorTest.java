@@ -56,7 +56,7 @@ class ChatMediatorImpl implements ChatMediator {
 	public void notifyMsgSeen(User fromuser) {
 		for(User u: users){
 			if(u!=fromuser){
-				u.getSeenNotification(fromuser.name + "has seen!");
+				u.getSeenNotification(u.name+"'s chatbox:"+"seen by "+fromuser.name);
 			}
 		}
 	}
@@ -98,7 +98,7 @@ class UserImpl extends User {
 
 	@Override
 	public void see() {
-		System.out.println(name+" read the message");
+		System.out.println(name+" reading...");
 		mediator.notifyMsgSeen(this);
 	}
 

@@ -1,9 +1,9 @@
 package designpatterns.structural_patterns;
 
-public class AdapterTest1 {
+public class AdapterTest {
 
 	public static void main(String[] args) {
-		MyPlayer player=new MyPlayer();
+		Player player=new MyPlayer();
 		player.play("flv", "Infinity war");
 	}
 }

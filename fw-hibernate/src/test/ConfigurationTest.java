@@ -9,7 +9,7 @@ import javax.persistence.Persistence;
 
 import org.hibernate.Session;
 
-import entity.Student;
+import entities.Student;
 
 public class ConfigurationTest {
 

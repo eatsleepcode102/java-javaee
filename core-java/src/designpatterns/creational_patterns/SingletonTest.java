@@ -1,4 +1,4 @@
-package designpatterns.creational_patterns.singleton;
+package designpatterns.creational_patterns;
 
 public class SingletonTest {
 

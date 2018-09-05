@@ -6,8 +6,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import entity.Student;
-import entity.Subjects;
+import entities.Student;
+import entities.Subjects;
 
 
 public class OneToManyTest {

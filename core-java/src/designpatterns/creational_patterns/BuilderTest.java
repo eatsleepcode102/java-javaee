@@ -1,4 +1,4 @@
-package designpatterns.creational_patterns.builder;
+package designpatterns.creational_patterns;
 
 public class BuilderTest {
 
