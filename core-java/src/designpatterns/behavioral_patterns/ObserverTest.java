@@ -28,12 +28,7 @@ interface Subject {
 	public void register(Observer obj);
 	public void unregister(Object obj);
 	public void notifyObservers();
-	public Object getUpdate(Object obj);
-}
-
-interface Observer {
-	public void update();
-	public void setSubject(Subject sub);
+	public Object getUpdate();
 }
 
 class MyTopic implements Subject {
@@ -72,7 +67,7 @@ class MyTopic implements Subject {
 	}
 
 	@Override
-	public Object getUpdate(Object obj) {
+	public Object getUpdate() {
 		return this.message;
 	}
 	
@@ -82,6 +77,11 @@ class MyTopic implements Subject {
 		this.changed=true;
 		notifyObservers();
 	}
+}
+
+interface Observer {
+	public void update();
+	public void setSubject(Subject sub);
 }
 
 class MyTopicSubcriber implements Observer {
@@ -95,7 +95,7 @@ class MyTopicSubcriber implements Observer {
 
 	@Override
 	public void update() {
-		String msg=(String) topic.getUpdate(this);
+		String msg=(String) topic.getUpdate();
 		if(msg==null){
 			System.out.println(name+":: No new message");
 		} else {
