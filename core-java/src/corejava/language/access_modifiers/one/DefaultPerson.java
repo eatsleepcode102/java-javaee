@@ -1,4 +1,4 @@
-package corejava.common.access_modifiers.one;
+package corejava.language.access_modifiers.one;
 
 public class DefaultPerson {
 	protected void showMe(){

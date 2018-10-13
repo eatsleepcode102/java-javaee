@@ -1,4 +1,4 @@
-package corejava.common.access_modifiers.two;
+package corejava.language.access_modifiers.two;
 
 public class Animal {
 	

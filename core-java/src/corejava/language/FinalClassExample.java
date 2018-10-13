@@ -1,4 +1,4 @@
-package corejava.common;
+package corejava.language;
 
 import java.util.HashMap;
 import java.util.Iterator;

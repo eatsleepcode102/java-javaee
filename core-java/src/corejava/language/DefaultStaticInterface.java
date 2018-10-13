@@ -1,4 +1,4 @@
-package corejava.common;
+package corejava.language;
 
 public class DefaultStaticInterface {
 

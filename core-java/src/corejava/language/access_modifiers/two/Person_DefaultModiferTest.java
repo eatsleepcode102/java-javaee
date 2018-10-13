@@ -1,6 +1,6 @@
-package corejava.common.access_modifiers.two;
+package corejava.language.access_modifiers.two;
 
-import corejava.common.access_modifiers.one.DefaultPerson;
+import corejava.language.access_modifiers.one.DefaultPerson;
 
 public class Person_DefaultModiferTest {
 

@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.persistence.UniqueConstraint;
 
@@ -32,6 +34,7 @@ public class Employee {
 	private String role;
 	
 	@Column(name="insert_time", nullable=true)
+	@Temporal(TemporalType.DATE)
 	private Date insertTime;
 	
 	public int getId() {

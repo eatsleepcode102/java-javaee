@@ -24,3 +24,4 @@ hibernate-entitymanager-5.0.5.Final.jar
 javassist-3.12.1.GA.jar
 classmate-1.3.1.jar
 antlr-2.7.7.jar
+jboss-logging-3.3.1.Final.jar

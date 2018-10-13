@@ -28,7 +28,8 @@
 
 		<!-- Mapping with model class containing annotations -->
 		<!-- take note that currently it just reads the config properties, so must add class by using java code(check Configuation class) -->
-		<!-- <mapping class="test.Employee" ></mapping> -->
+		<mapping class="test.Employee" ></mapping>
+		<mapping class="entities.Survey" ></mapping>
 
 	</session-factory>
 </hibernate-configuration>
