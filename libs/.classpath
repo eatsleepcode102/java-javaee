@@ -16,7 +16,7 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="weld-se-core-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/se/weld-se-core/2.2.4.Final/weld-se-core-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-spi-2.2.SP3.jar"/>
-	<classpathentry exported="true" kind="lib" path="weld-core-impl-2.2.4.Final.jar" sourcepath="C:/Users/Eternity/.m2/repository/org/jboss/weld/weld-core-impl/2.2.4.Final/weld-core-impl-2.2.4.Final-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="weld-core-impl-2.2.4.Final.jar" sourcepath="C:/Users/Andrew/.m2/repository/org/jboss/weld/weld-core-impl/2.2.4.Final/weld-core-impl-2.2.4.Final-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="guava-13.0.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="weld-api-2.2.SP3.jar"/>
 	<classpathentry exported="true" kind="lib" path="jboss-classfilewriter-1.0.4.Final.jar"/>

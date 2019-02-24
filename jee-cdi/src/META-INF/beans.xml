@@ -9,4 +9,7 @@
     <!-- <alternatives>
         <class>alternatives.FancyGreeting</class>  for using @Alternatives annotation
     </alternatives> -->
+    <interceptors>
+        <class>interceptor.MyInterceptor</class>
+    </interceptors>
 </beans>
