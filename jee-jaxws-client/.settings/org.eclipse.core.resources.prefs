@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/example/ebookstore/endpoint/EBook.java=UTF-8
+encoding//src/example/ebookstore/endpoint/EBookStore.java=UTF-8
+encoding//src/example/ebookstore/endpoint/EBookStoreImplPortBindingStub.java=UTF-8
+encoding//src/example/ebookstore/endpoint/EBookStoreImplService.java=UTF-8
+encoding//src/example/ebookstore/endpoint/EBookStoreImplServiceLocator.java=UTF-8
