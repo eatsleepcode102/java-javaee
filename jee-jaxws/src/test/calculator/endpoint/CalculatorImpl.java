@@ -1,4 +1,4 @@
-package test.calculator_endpoint;
+package test.calculator.endpoint;
 
 import javax.jws.WebService;
 

@@ -1,4 +1,4 @@
-package test.client;
+package test.calculator.client;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -6,7 +6,7 @@ import java.net.URL;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-import test.calculator_endpoint.Calculator;
+import test.calculator.endpoint.Calculator;
 
 public class CalculatorMain {
 
